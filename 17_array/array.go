@@ -27,4 +27,13 @@ func main() {
 	var arr1 = [3]int{1, 2, 3}
 	fmt.Println("array contains:", arr1)
 	fmt.Println("array contains:", len(arr1))
+
+	//taking array size as input
+	var size int
+	fmt.Print("Enter array size: ")
+	fmt.Scan(&size)
+
+	// Create a slice with the runtime size
+	myArray := make([]int, size) //make syntax of the array
+	fmt.Printf("Created array of length %d\n", len(myArray))
 }
