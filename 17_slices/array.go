@@ -2,7 +2,9 @@
 
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	fmt.Println("This file shows the working of arrays.")
@@ -25,5 +27,4 @@ func main() {
 	var arr1 = [3]int{1, 2, 3}
 	fmt.Println("array contains:", arr1)
 	fmt.Println("array contains:", len(arr1))
-
 }
