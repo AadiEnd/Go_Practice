@@ -34,7 +34,7 @@ func main() {
 
 	sort.Ints(copped)
 	fmt.Println(copped)
-	// slices me se ek value hide kasie kareing
+	// slices me se ek value hide kasie karein based on idex
 	var index int = 2
 	fmt.Println("after hiding the value of highscore is:")
 	fmt.Println(append(highScore[:index], highScore[index+1:]...))
